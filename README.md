@@ -1,5 +1,5 @@
 # E-com
-Python Django Web Framework based e-commerce Web Application with store, cart and checkout functionality.
+Python Django Web Framework based e-commerce Web Application with Store, Cart, Logged-In User and Guest User functionality.
 
 # Prerequistes
 - Python Version 3.xx should be installed into your system
