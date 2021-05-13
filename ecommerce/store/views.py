@@ -14,7 +14,7 @@ def store(request):
     else:
         items = []
         order = {'get_cart_total':0, 'get_cart_items':0}
-        cartitems = order.get_cart_items()
+        cartItems = order.get_cart_items()
     
     products = Product.objects.all()
     context = {'products': products, 'cartItems': cartItems}
