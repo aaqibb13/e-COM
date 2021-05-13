@@ -1,5 +1,5 @@
 # E-com
-Python Django Web Framework based e-commerce Web Application with store, cart and checkout functionality.
+Python Django Web Framework based e-commerce Web Application with Store, Cart, Logged-In User and Guest User functionality.
 
 # Prerequistes
 - Python Version 3.xx should be installed into your system
@@ -20,6 +20,7 @@ where, Env is the name of your Virtual environment
      > pip install requirements.txt
 7. Run the server by running the following:
      > python manage.py runserver
+
 The server should now be running at `127.0.0.1:8000`
 
 # Functionalities
@@ -32,3 +33,7 @@ The server should now be running at `127.0.0.1:8000`
 - Shopping functionality 
     - For Registered User
     - For Guest User
+## Upcoming Features
+- DRF addition
+     - Serialization of Data
+     - Endpoints for incorporation of frontend frameworks
