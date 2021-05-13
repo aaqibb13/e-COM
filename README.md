@@ -36,4 +36,4 @@ The server should now be running at `127.0.0.1:8000`
 ## Upcoming Features
 - DRF addition
      - Serialization of Data
-     - Endpoints for incorporation of frontend frameworks
+     - Endpoints for incorporation/opportunity to add frontend frameworks like React/Angular.
