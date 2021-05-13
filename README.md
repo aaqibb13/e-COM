@@ -33,3 +33,7 @@ The server should now be running at `127.0.0.1:8000`
 - Shopping functionality 
     - For Registered User
     - For Guest User
+## Upcoming Features
+- DRF addition
+     - Serialization of Data
+     - Endpoints for incorporation of frontend frameworks
