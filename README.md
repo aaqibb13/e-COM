@@ -1,6 +1,4 @@
-# E-com
-
-
+# Django E-com App
 Python Django Web Framework based e-commerce Web Application with Store, Cart, Logged-In User and Guest User functionality.
 
 # Prerequistes
