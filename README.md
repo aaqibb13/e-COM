@@ -19,13 +19,13 @@ Python Django Web Framework based e-commerce Web Application with Store, Cart, L
            c://users/hp/desktop/python/venv/scripts/activate
      
    where, Env is the name of your Virtual environment
-- Follow Step 6, If requirements.txt is already available or generate requirements.txt using:
+- Follow next step, If requirements.txt is already available or generate requirements.txt using:
       
           pip freeze > requirements.txt
           
 - Install all the dependencies/requirements:
 
-          pip install requirements.txt
+          pip install -r requirements.txt
           
 - Run the server by running the following:
           
