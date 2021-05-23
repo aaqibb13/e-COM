@@ -45,12 +45,12 @@ def checkout(request):
     return render(request, 'store/checkout.html', context)
 
 def UpdateItem(request):
-    data = json.loads(request.data)
+    data = json.loads(request.body)
     productId = data['productId']
     action = data['action']
 
     print('Action:', action)
-    print('productId:', productId)
+    print('Product:', productId)
 
     customer = request.user.customer
     product = Product.objects.get(id=productId)
