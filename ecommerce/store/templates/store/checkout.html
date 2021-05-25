@@ -80,16 +80,13 @@
     if(user != 'AnonymousUser'){
         document.getElementById('user-info').innerHTML = ''
     }
-    if(shipping == False && user != 'AnonymousUser'){
+    if(shipping == 'False' && user != 'AnonymousUser'){
         // Hide entire form if user is logged in and shipping is False
         document.getElementById('form-wrapper').classList.add("hidden");
-
         // Show payment if logged in user wants to buy an item that does not require shipping
         document.getElementById('payment-info').classList.remove("hidden");
 
     }
-
-
 
     var form = document.getElementById('form')
     form.addEventListener('submit', function(e){
@@ -106,7 +103,7 @@
 
     function submitFormData(){
         console.log('Payment button clicked')
-    }
+
 
     var userFormData = {
         'name':null,
@@ -132,6 +129,22 @@
         userFormData.name = form.name.value
         userFormData.email = form.email.value
     }
-</script>
 
+    var url = '/process_order/'
+    fetch(url, {
+        method:'POST',
+        headers:{
+            'Content-Type':'application/json',
+            'X-CSRFToken':csrftoken,
+        },
+        body:JSON.stringify({'form':userFormData, 'shipping':shippingInfo})
+    })
+    .then((response) => response.json())
+    .then((data) => {
+        console.log('Success:', data);
+        alert('Transaction Completed!');
+        window.location.href = "{% url 'store' %}"
+    })
+}
+</script>
 {% endblock content %}
