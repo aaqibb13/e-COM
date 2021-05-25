@@ -44,7 +44,8 @@ class Order(models.Model):
         shipping = False
         orderitems = self.orderitem_set.all()
         for i in orderitems:
-            pass
+            if i.product.digital == False:
+                shipping = True
         return shipping
 
     @property
