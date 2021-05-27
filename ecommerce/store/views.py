@@ -3,7 +3,7 @@ from django.http import JsonResponse
 import json
 from .models import *
 
-# Create your views here.
+# Create your views here
 
 def store(request):
     if request.user.is_authenticated:
