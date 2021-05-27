@@ -11,10 +11,6 @@ Python Django Web Framework based e-commerce Web Application with Store, Cart, L
 - Shopping functionality 
     - For Registered User
     - For Guest User
-## Upcoming Features
-- DRF addition
-     - Serialization of Data
-     - Endpoints for incorporation/opportunity to add frontend frameworks like React/Angular.
 
 # Prerequistes
 - Python Version 3.xx should be installed into your system
@@ -47,3 +43,8 @@ Python Django Web Framework based e-commerce Web Application with Store, Cart, L
           python manage.py runserver
 
 The server should now be running at `127.0.0.1:8000`
+
+## Upcoming Features
+- DRF addition
+     - Serialization of Data
+     - Endpoints for incorporation/opportunity to add frontend frameworks like React/Angular.
