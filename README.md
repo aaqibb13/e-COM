@@ -6,7 +6,7 @@ Python Django Web Framework based e-commerce Web Application with Store, Cart, L
     - Add to Cart Functionality 
     - View Functionality
 - Cart Functionality
-    - Product Increment
+    - Product Quantity Increment and Decrement
     - Product Removal
     - Checkout Functionality
     - Payment gateway Integration
