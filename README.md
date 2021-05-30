@@ -13,7 +13,26 @@ Python Django Web Framework based e-commerce Web Application with Store, Cart, L
 - Shopping functionality 
     - For Registered User
     - For Guest User
+# Overlooking the Web Application
+- **Store**
 
+![](https://github.com/aaqibb13/DjangoEcomApp/blob/master/assets/store.png)
+
+- **Store for Authenticated User**
+
+![](https://github.com/aaqibb13/DjangoEcomApp/blob/master/assets/loggedinstore.png)
+
+- **Cart for Authenticated User**
+
+![](https://github.com/aaqibb13/DjangoEcomApp/blob/master/assets/cart.png)
+
+- **Checkout Page**
+
+![](https://github.com/aaqibb13/DjangoEcomApp/blob/master/assets/checkout.png)
+
+- **Checkout Page with Payment Integration**
+
+![](https://github.com/aaqibb13/DjangoEcomApp/blob/master/assets/checkoutwithpayment.png)
 # Prerequistes
 - Python Version 3.xx should be installed into your system
 - Install Django framework if not installed already:
