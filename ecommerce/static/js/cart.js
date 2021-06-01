@@ -7,7 +7,7 @@ for(var i = 0; i < updateBtns.length; i++){
         console.log('productId:', productId, 'action:', action)
 
         console.log('USER:', user)
-        if(user == 'AnonymousUser'){
+        if(user === 'AnonymousUser'){
             addCookieItem(productId, action)
         }else{
             updateUserOrder(productId, action)
