@@ -26,7 +26,7 @@ decompyle3 @ git+https://github.com/rocky/python-decompile3@47b5587b0a18b9fa7bea
 decorator==4.4.2
 defusedxml==0.6.0
 distlib==0.3.1
-Django==3.2.4
+Django==3.2.13
 dnspython==2.1.0
 email-validator==1.1.2
 entrypoints==0.3
